@@ -9,7 +9,8 @@ Key protocol notes:
 Files you need:
 - `decrypt.py` — converts the byte array to plaintext and returns decrypted fields.
 - `encrypt.py` — takes modified plaintext and converts it back to the exact byte-array format.
-- Note  : The current codes inside the AES folder are served as template to use with PyScript. With the content of code is specifically descrypt password field only. Change is needed for custom Request
+- `Note`  : The current codes inside the AES folder are served as template to use with PyScript. With the content of code is specifically descrypt password field only. Change is needed for custom Request
+
 Prerequisites:
 - Burp Suite with the PyCript extension.
 - Python 3 and `pycryptodome` (or equivalent) installed. Point PyCript to the Python binary (for example, `/usr/bin/python3`).
